@@ -1,0 +1,85 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\ArticleAuthor;
+use Illuminate\Http\Request;
+
+class ArticleAuthorController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        //
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\ArticleAuthor  $articleAuthor
+     * @return \Illuminate\Http\Response
+     */
+    public function show(ArticleAuthor $articleAuthor)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\ArticleAuthor  $articleAuthor
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(ArticleAuthor $articleAuthor)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\ArticleAuthor  $articleAuthor
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, ArticleAuthor $articleAuthor)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\ArticleAuthor  $articleAuthor
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(ArticleAuthor $articleAuthor)
+    {
+        //
+    }
+}

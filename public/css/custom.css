@@ -1,0 +1,18 @@
+.mt-20{
+	margin-top: 20px;
+}
+.has-error .form-control, .has-error .form-control:focus{
+	    border: 1px solid #e48888;
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    transition: all ease .3s;
+}
